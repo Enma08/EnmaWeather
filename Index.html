@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnmaWeather</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <span class="loader">EnmaWeather</span>
+    
+
+    <form id="container">
+
+        <div class="main">
+            <div class="brutalist-container">
+                <input type="text" placeholder="Enter the City" id="city" class="brutalist-input smooth-type">
+            </div>    
+        </div>
+
+        <div class="footer">
+            <button type="button" id="clearBtn" class="button">Clear</button>    
+            <button type="submit" class="button-first">Get Weather</button>
+        </div>
+    </form>
+
+       
+
+    <p class="cityError">City not found!</p>
+
+    <section class="temp">
+        <div class="card tempe-div">
+          <h2>Temperature</h2>
+          <p>Min: <span class="min-temp">0</span> ºC</p>
+          <p>Current: <span class="cur-temp">0</span> ºC</p>
+          <p>Max: <span class="max-temp">0</span> ºC</p>
+        </div>
+        <div class="card tempe-div">
+          <h2>Humidity and Pressure</h2>
+          <p>Humidity: <span class="humidity">0</span></p>
+          <p>Pressure: <span class="pressure">0</span></p>
+        </div>
+        <div class="card tempe-div">
+          <h2>Weather and Wind</h2>
+          <p>Weather: <span class="weather">0</span></p>
+          <p>Wind: <span class="wind">0</span></p>
+        </div>
+        <div class="card tempe-div">
+          <h2>Clouds and Country</h2>
+          <p>Clouds: <span class="clouds">0</span></p>
+          <p>Country: <span class="sys">0</span></p>
+        </div>
+    </section>
+ 
+    <script src="Index.js"></script>
+</body>
+</html>
